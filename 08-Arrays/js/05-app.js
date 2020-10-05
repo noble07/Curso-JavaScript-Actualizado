@@ -6,6 +6,8 @@
  * 
  */
 
+//Está es la forma imperativa
+
 const carrito = [];
 
 // Definir un producto
@@ -28,6 +30,7 @@ const producto3 = {
   precio: 50
 };
 
+//Añade el elemento al inicio del array
 carrito.unshift(producto3);
 
 console.table(carrito);
